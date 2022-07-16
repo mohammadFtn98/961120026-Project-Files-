@@ -1,0 +1,56 @@
+﻿.container .rcontant .ccontant .SendMissionListManagement {
+    outline: 5px double gold;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+    /*---Header---*/
+
+    .container .rcontant .ccontant .SendMissionListManagement .SendMissionListManagementHeader {
+        height: 100px;
+    }
+
+        .container .rcontant .ccontant .SendMissionListManagement .SendMissionListManagementHeader a h2 {
+            color: gold;
+            text-align: center;
+            line-height: 100px;
+        }
+
+    /*---Contant---*/
+
+    .container .rcontant .ccontant .SendMissionListManagement .SendMissionListManagementContant {
+        min-height: 500px;
+        background-color: gold;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /*---Footer---*/
+
+    .container .rcontant .ccontant .SendMissionListManagement .SendMissionListManagementFooter {
+        min-height: 100px;
+    }
+
+        .container .rcontant .ccontant .SendMissionListManagement .SendMissionListManagementFooter .row .col-sm-6 {
+            min-height: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            color: gold;
+        }
+
+            .container .rcontant .ccontant .SendMissionListManagement .SendMissionListManagementFooter .row .col-sm-6 .SendMissionListManagementFooterBTN {
+                height: 40px;
+                width: 115px;
+                margin: 5px;
+                background-color: gold;
+                color: black;
+                border-radius: 15px;
+                border-color: gold;
+            }
+
+                .container .rcontant .ccontant .SendMissionListManagement .SendMissionListManagementFooter .row .col-sm-6 .SendMissionListManagementFooterBTN:hover {
+                    height: 42px;
+                    width: 117px;
+                    box-shadow: 0px 0px 10px 2px gold;
+                }

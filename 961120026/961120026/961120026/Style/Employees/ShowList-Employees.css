@@ -1,0 +1,55 @@
+﻿.container .rcontant .ccontant .ShowListEmployees {
+    margin: 20px auto;
+    outline: 5px double gold;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+    /*---Header---*/
+
+    .container .rcontant .ccontant .ShowListEmployees .ShowListEmployeesHeader {
+        height: 100px;
+    }
+
+        .container .rcontant .ccontant .ShowListEmployees .ShowListEmployeesHeader a h2 {
+            color: gold;
+            text-align: center;
+            line-height: 100px;
+        }
+    /*---Contant---*/
+
+    .container .rcontant .ccontant .ShowListEmployees .ShowListEmployeesContant {
+        min-height: 500px;
+        background-color: gold;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /*---Footer---*/
+
+    .container .rcontant .ccontant .ShowListEmployees .ShowListEmployeesFooter {
+        min-height: 100px;
+    }
+
+        .container .rcontant .ccontant .ShowListEmployees .ShowListEmployeesFooter .row .col-sm-6 {
+            min-height: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            color: gold;
+        }
+
+            .container .rcontant .ccontant .ShowListEmployees .ShowListEmployeesFooter .row .col-sm-6 .ShowListEmployeesFooterBTN {
+                height: 40px;
+                width: 115px;
+                margin: 5px;
+                background-color: gold;
+                color: black;
+                border-radius: 15px;
+                border-color: gold;
+            }
+
+                .container .rcontant .ccontant .ShowListEmployees .ShowListEmployeesFooter .row .col-sm-6 .ShowListEmployeesFooterBTN:hover {
+                    height: 42px;
+                    width: 117px;
+                    box-shadow: 0px 0px 10px 2px gold;
+                }

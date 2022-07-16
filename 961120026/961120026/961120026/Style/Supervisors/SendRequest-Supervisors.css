@@ -1,0 +1,99 @@
+﻿.container .rcontant .ccontant .SendRequestSupervisors {
+    outline: 5px double gold;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+    /*---Header---*/
+
+    .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsHeader {
+        height: 100px;
+    }
+
+        .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsHeader a h2 {
+            color: gold;
+            text-align: center;
+            line-height: 100px;
+        }
+
+    /*---Contant---*/
+
+    .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsContant {
+        min-height: 500px;
+        background-color: gold;
+    }
+
+        .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsContant .row .cl {
+            min-height: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+            .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsContant .row .cl h4 {
+                text-align: right;
+            }
+
+            .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsContant .row .cl .SendRequestSupervisorsContantInput {
+                width: 200px;
+                height: 35px;
+                outline: 2px double black;
+                border-radius: 15px;
+                text-align: center;
+                border: 0px;
+                background-color: black;
+                color: gold;
+                margin: auto;
+            }
+
+                .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsContant .row .cl .SendRequestSupervisorsContantInput:hover {
+                    width: 201px;
+                    height: 36px;
+                    box-shadow: 0px 0px 10px 2px black;
+                }
+
+            .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsContant .row .cl .SendRequestSupervisorsContantBigInput {
+                width: 100%;
+                min-height: 200px;
+                outline: 2px double black;
+                border-radius: 15px;
+                text-align: right;
+                direction: rtl;
+                padding: 10px 5px;
+                border: 0px;
+                background-color: black;
+                color: gold;
+            }
+
+                .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsContant .row .cl .SendRequestSupervisorsContantBigInput:hover {
+                    box-shadow: 0px 0px 10px 2px black;
+                }
+
+    /*---Footer---*/
+
+    .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsFooter {
+        min-height: 100px;
+    }
+
+        .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsFooter .row .col-sm-6 {
+            min-height: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            color: gold;
+        }
+
+            .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsFooter .row .col-sm-6 .SendRequestSupervisorsFooterBTN {
+                height: 40px;
+                width: 115px;
+                margin: 5px;
+                background-color: gold;
+                color: black;
+                border-radius: 15px;
+                border-color: gold;
+            }
+
+                .container .rcontant .ccontant .SendRequestSupervisors .SendRequestSupervisorsFooter .row .col-sm-6 .SendRequestSupervisorsFooterBTN:hover {
+                    height: 42px;
+                    width: 117px;
+                    box-shadow: 0px 0px 10px 2px gold;
+                }

@@ -1,0 +1,109 @@
+﻿.container .rcontant .ccontant .SendMissionDetailsManagement {
+    outline: 5px double gold;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+    /*---Header---*/
+
+    .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementHeader {
+        height: 100px;
+    }
+
+        .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementHeader a h2 {
+            color: gold;
+            text-align: center;
+            line-height: 100px;
+        }
+
+    /*Contant*/
+
+    .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementContant {
+        min-height: 500px;
+        background-color: gold;
+    }
+
+        .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementContant .row .cl {
+            min-height: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+            .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementContant .row .cl h4 {
+                text-align: right;
+            }
+
+            .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementContant .row .cl .SendMissionDetailsManagementContantInput {
+                width: 250px;
+                height: 40px;
+                outline: 2px double black;
+                border-radius: 15px;
+                text-align: center;
+                border: 0px;
+                background-color: black;
+                color: gold;
+                margin: auto;
+            }
+
+                .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementContant .row .cl .SendMissionDetailsManagementContantInput:hover {
+                    width: 251px;
+                    height: 41px;
+                    box-shadow: 0px 0px 10px 2px black;
+                }
+
+            .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementContant .row .cl .SendMissionDetailsManagementContantSmallLabel {
+                width: 250px;
+                height: 40px;
+                outline: 2px double black;
+                border-radius: 15px;
+                text-align: center;
+                border: 0px;
+                background-color: black;
+                color: gold;
+                margin: auto;
+                display: inline-block;
+                line-height: 40px;
+            }
+
+            .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementContant .row .cl .SendMissionDetailsManagementContantBigLabel {
+                width: 100%;
+                min-height: 200px;
+                outline: 2px double black;
+                border-radius: 15px;
+                text-align: right;
+                direction: rtl;
+                padding: 10px 5px;
+                border: 0px;
+                background-color: black;
+                color: gold;
+                display: inline-block;
+            }
+
+    /*---Footer---*/
+    .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementFooter {
+        min-height: 100px;
+    }
+
+        .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementFooter .row .col-sm-6 {
+            min-height: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            color: gold;
+        }
+
+            .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementFooter .row .col-sm-6 .SendMissionDetailsManagementFooterBTN {
+                height: 40px;
+                width: 115px;
+                margin: 5px;
+                background-color: gold;
+                color: black;
+                border-radius: 15px;
+                border-color: gold;
+            }
+
+                .container .rcontant .ccontant .SendMissionDetailsManagement .SendMissionDetailsManagementFooter .row .col-sm-6 .SendMissionDetailsManagementFooterBTN:hover {
+                    height: 42px;
+                    width: 117px;
+                    box-shadow: 0px 0px 10px 2px gold;
+                }

@@ -1,0 +1,572 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D123E0E-08E6-4557-88A0-37675FAE63AB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_961120026</RootNamespace>
+    <AssemblyName>961120026</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44312</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataBase\Samak.mdf" />
+    <Content Include="DataBase\Samak_log.ldf" />
+    <Content Include="Fonts\B Titr Bold_0.svg" />
+    <Content Include="HTML\Employees\ChangePasseord-Employees.aspx" />
+    <Content Include="HTML\Employees\Home-Employees.aspx" />
+    <Content Include="HTML\Employees\ReceivedMissionDetails-Employees.aspx" />
+    <Content Include="HTML\Employees\ReceivedMission-Employees.aspx" />
+    <Content Include="HTML\Employees\SendRequestResult-Employees.aspx" />
+    <Content Include="HTML\Employees\SendRequest-Employees.aspx" />
+    <Content Include="HTML\Employees\SendReport-Employees.aspx" />
+    <Content Include="HTML\Employees\SendRequestResultDetails-Employees.aspx" />
+    <Content Include="HTML\Employees\ShowList-Employees.aspx" />
+    <Content Include="HTML\Management\ChangePassword-Management.aspx" />
+    <Content Include="HTML\Management\SendMissionDetails-Management.aspx" />
+    <Content Include="HTML\Management\SendMissionList-Management.aspx" />
+    <Content Include="HTML\Management\ReceivedReportDetails-Management.aspx" />
+    <Content Include="HTML\Management\ReceivedRequestDetails-Management.aspx" />
+    <Content Include="HTML\Management\ReceivedRequestReplay-Management.aspx" />
+    <Content Include="HTML\Management\SendMission-Management.aspx" />
+    <Content Include="HTML\Management\ReceivedReport-Management.aspx" />
+    <Content Include="HTML\Management\ReceivedRequest-Management.aspx" />
+    <Content Include="HTML\Management\Recruitment-Management.aspx" />
+    <Content Include="HTML\Management\ShowList-Management.aspx" />
+    <Content Include="HTML\Supervisors\ChangePasseord-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\Home-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\ReceivedMissionDetails-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\ReceivedReportDetails-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\ReceivedRequestDetails-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\ReceivedRequestReplay-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\SendMission-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\ReceivedMission-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\ReceivedReport-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\ReceivedRequest-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\SendMissionDetails-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\SendMissionList-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\SendRequest-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\SendReport-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\SendRequestResult-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\SendRequestResultDetails-Supervisors.aspx" />
+    <Content Include="HTML\Supervisors\ShowList-Supervisors.aspx" />
+    <Content Include="Java Script\bootstrap.js" />
+    <Content Include="HTML\Employees\Login-Employees.aspx" />
+    <Content Include="HTML\Management\Home-Management.aspx" />
+    <Content Include="HTML\Management\Login-Management.aspx" />
+    <Content Include="HTML\StartPage.aspx" />
+    <Content Include="HTML\Supervisors\Login-Supervisors.aspx" />
+    <Content Include="Java Script\Date\kamadatepicker.min.js" />
+    <Content Include="Java Script\Employees\ChangePassword-Employees.js" />
+    <Content Include="Java Script\Employees\ReceivedMissionDetails-Employees.js" />
+    <Content Include="Java Script\Employees\Login-Employees.js" />
+    <Content Include="Java Script\Employees\SendReport-Employees.js" />
+    <Content Include="Java Script\Employees\SendRequest-Employees.js" />
+    <Content Include="Java Script\Employees\SendRequestResultDetails-Employees.js" />
+    <Content Include="Java Script\Jquery.js" />
+    <Content Include="Java Script\Management\ChangePassword-Management.js" />
+    <Content Include="Java Script\Management\ReceivedRequestDetails-Management.js" />
+    <Content Include="Java Script\Management\Login-Management.js" />
+    <Content Include="Java Script\Management\ReceivedReportDetails-Management.js" />
+    <Content Include="Java Script\Management\ReceivedRequestReplay-Management.js" />
+    <Content Include="Java Script\Management\Recruitment-Management.js" />
+    <Content Include="Java Script\Management\SendMission-Management.js" />
+    <Content Include="Java Script\Management\SendMissionDetails-Management.js" />
+    <Content Include="Java Script\Supervisors\ChangePasseord-Supervisors.js" />
+    <Content Include="Java Script\Supervisors\Login-Supervisors.js" />
+    <Content Include="Java Script\Supervisors\ReceivedMissionDetails-Supervisors.js" />
+    <Content Include="Java Script\Supervisors\ReceivedReportDetails-Supervisors.js" />
+    <Content Include="Java Script\Supervisors\ReceivedRequestDetails-Supervisors.js" />
+    <Content Include="Java Script\Supervisors\ReceivedRequestReplay-Supervisors.js" />
+    <Content Include="Java Script\Supervisors\SendMission-Supervisors.js" />
+    <Content Include="Java Script\Supervisors\SendMissionDetails-Supervisors.js" />
+    <Content Include="Java Script\Supervisors\SendReport-Supervisors.js" />
+    <Content Include="Java Script\Supervisors\SendRequest-Supervisors.js" />
+    <Content Include="Java Script\Supervisors\SendRequestResultDetails-Supervisors.js" />
+    <Content Include="Pictures\logo.png" />
+    <Content Include="Pictures\background.png" />
+    <Content Include="Pictures\instagram.png" />
+    <Content Include="Pictures\mail.png" />
+    <Content Include="Pictures\Map.png" />
+    <Content Include="Pictures\Slider\1.jpg" />
+    <Content Include="Pictures\Slider\2.jpg" />
+    <Content Include="Pictures\telegram.png" />
+    <Content Include="Pictures\timeir_next.png" />
+    <Content Include="Pictures\timeir_prev.png" />
+    <Content Include="Style\bootstrap.css" />
+    <Content Include="Style\Employees\ChangePassword-Employees.css" />
+    <Content Include="Style\Employees\login-employees.css" />
+    <Content Include="Style\Employees\MasterPage-Employees.css" />
+    <Content Include="Style\Employees\ReceivedMissionDetails-Employees.css" />
+    <Content Include="Style\Employees\ReceivedMission-Employees.css" />
+    <Content Include="Style\Employees\SendRequestResult-Employees.css" />
+    <Content Include="Style\Employees\SendRequestResultDetails-Employees.css" />
+    <Content Include="Style\Employees\SendRequests-Employees.css" />
+    <Content Include="Style\Employees\SendReports-Employees.css" />
+    <Content Include="Style\Employees\ShowList-Employees.css" />
+    <Content Include="Style\kamadatepicker.min.css" />
+    <Content Include="Style\Management\ChangePasseord-Management.css" />
+    <Content Include="Style\Management\Login-Management.css" />
+    <Content Include="Style\Management\MasterPage-Management.css" />
+    <Content Include="Style\Management\ReceivedReportDetails-Management.css" />
+    <Content Include="Style\Management\ReceivedRequestDetails-Management.css" />
+    <Content Include="Style\Management\ReceivedRequestReplay-Management.css" />
+    <Content Include="Style\Management\SendMission-Management.css" />
+    <Content Include="Style\Management\ReceivedReport-Management.css" />
+    <Content Include="Style\Management\ReceivedRequest-Management.css" />
+    <Content Include="Style\Management\Recruitment-Management.css" />
+    <Content Include="Style\Management\SendMissionDetails-Management.css" />
+    <Content Include="Style\Management\SendMissionList-Management.css" />
+    <Content Include="Style\Management\ShowList-Management.css" />
+    <Content Include="Style\StartPage.css" />
+    <Content Include="Style\Supervisors\ChangePasseord-Supervisors.css" />
+    <Content Include="Style\Supervisors\Login-Supervisors.css" />
+    <Content Include="Style\Supervisors\MasterPage-Supervisors.css" />
+    <Content Include="Style\Supervisors\ReceivedMissionDetails-Supervisors.css" />
+    <Content Include="Style\Supervisors\ReceivedReportDetails-Supervisors.css" />
+    <Content Include="Style\Supervisors\ReceivedRequestDetails-Supervisors.css" />
+    <Content Include="Style\Supervisors\ReceivedRequestReplay-Supervisors.css" />
+    <Content Include="Style\Supervisors\SendMission-Supervisors.css" />
+    <Content Include="Style\Supervisors\ReceivedMission-Supervisors.css" />
+    <Content Include="Style\Supervisors\ReceivedReport-Supervisors.css" />
+    <Content Include="Style\Supervisors\ReceivedRequest-Supervisors.css" />
+    <Content Include="Style\Supervisors\SendMissionDetails-Supervisors.css" />
+    <Content Include="Style\Supervisors\SendMissionList-Supervisors.css" />
+    <Content Include="Style\Supervisors\SendRequest-Supervisors.css" />
+    <Content Include="Style\Supervisors\SendReport-Supervisors.css" />
+    <Content Include="Style\Supervisors\SendRequestResult-Supervisors.css" />
+    <Content Include="Style\Supervisors\SendRequestResultDetails-Supervisors.css" />
+    <Content Include="Style\Supervisors\ShowList-Supervisors.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HTML\Employees\ChangePasseord-Employees.aspx.cs">
+      <DependentUpon>ChangePasseord-Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Employees\ChangePasseord-Employees.aspx.designer.cs">
+      <DependentUpon>ChangePasseord-Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Employees\Home-Employees.aspx.cs">
+      <DependentUpon>Home-Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Employees\Home-Employees.aspx.designer.cs">
+      <DependentUpon>Home-Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Employees\Login-Employees.aspx.cs">
+      <DependentUpon>Login-Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Employees\Login-Employees.aspx.designer.cs">
+      <DependentUpon>Login-Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Employees\MasterPage-Emoloyees.Master.cs">
+      <DependentUpon>MasterPage-Emoloyees.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Employees\MasterPage-Emoloyees.Master.designer.cs">
+      <DependentUpon>MasterPage-Emoloyees.Master</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Employees\ReceivedMissionDetails-Employees.aspx.cs">
+      <DependentUpon>ReceivedMissionDetails-Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Employees\ReceivedMissionDetails-Employees.aspx.designer.cs">
+      <DependentUpon>ReceivedMissionDetails-Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Employees\ReceivedMission-Employees.aspx.cs">
+      <DependentUpon>ReceivedMission-Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Employees\ReceivedMission-Employees.aspx.designer.cs">
+      <DependentUpon>ReceivedMission-Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Employees\SendRequestResult-Employees.aspx.cs">
+      <DependentUpon>SendRequestResult-Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Employees\SendRequestResult-Employees.aspx.designer.cs">
+      <DependentUpon>SendRequestResult-Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Employees\SendRequest-Employees.aspx.cs">
+      <DependentUpon>SendRequest-Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Employees\SendRequest-Employees.aspx.designer.cs">
+      <DependentUpon>SendRequest-Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Employees\SendReport-Employees.aspx.cs">
+      <DependentUpon>SendReport-Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Employees\SendReport-Employees.aspx.designer.cs">
+      <DependentUpon>SendReport-Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Employees\SendRequestResultDetails-Employees.aspx.cs">
+      <DependentUpon>SendRequestResultDetails-Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Employees\SendRequestResultDetails-Employees.aspx.designer.cs">
+      <DependentUpon>SendRequestResultDetails-Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Employees\ShowList-Employees.aspx.cs">
+      <DependentUpon>ShowList-Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Employees\ShowList-Employees.aspx.designer.cs">
+      <DependentUpon>ShowList-Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\ChangePassword-Management.aspx.cs">
+      <DependentUpon>ChangePassword-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\ChangePassword-Management.aspx.designer.cs">
+      <DependentUpon>ChangePassword-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\Home-Management.aspx.cs">
+      <DependentUpon>Home-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\Home-Management.aspx.designer.cs">
+      <DependentUpon>Home-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\Login-Management.aspx.cs">
+      <DependentUpon>Login-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\Login-Management.aspx.designer.cs">
+      <DependentUpon>Login-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\MasterPage-Management.Master.cs">
+      <DependentUpon>MasterPage-Management.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\MasterPage-Management.Master.designer.cs">
+      <DependentUpon>MasterPage-Management.Master</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\SendMissionDetails-Management.aspx.cs">
+      <DependentUpon>SendMissionDetails-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\SendMissionDetails-Management.aspx.designer.cs">
+      <DependentUpon>SendMissionDetails-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\SendMissionList-Management.aspx.cs">
+      <DependentUpon>SendMissionList-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\SendMissionList-Management.aspx.designer.cs">
+      <DependentUpon>SendMissionList-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\ReceivedReportDetails-Management.aspx.cs">
+      <DependentUpon>ReceivedReportDetails-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\ReceivedReportDetails-Management.aspx.designer.cs">
+      <DependentUpon>ReceivedReportDetails-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\ReceivedRequestDetails-Management.aspx.cs">
+      <DependentUpon>ReceivedRequestDetails-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\ReceivedRequestDetails-Management.aspx.designer.cs">
+      <DependentUpon>ReceivedRequestDetails-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\ReceivedRequestReplay-Management.aspx.cs">
+      <DependentUpon>ReceivedRequestReplay-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\ReceivedRequestReplay-Management.aspx.designer.cs">
+      <DependentUpon>ReceivedRequestReplay-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\SendMission-Management.aspx.cs">
+      <DependentUpon>SendMission-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\SendMission-Management.aspx.designer.cs">
+      <DependentUpon>SendMission-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\ReceivedReport-Management.aspx.cs">
+      <DependentUpon>ReceivedReport-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\ReceivedReport-Management.aspx.designer.cs">
+      <DependentUpon>ReceivedReport-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\ReceivedRequest-Management.aspx.cs">
+      <DependentUpon>ReceivedRequest-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\ReceivedRequest-Management.aspx.designer.cs">
+      <DependentUpon>ReceivedRequest-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\Recruitment-Management.aspx.cs">
+      <DependentUpon>Recruitment-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\Recruitment-Management.aspx.designer.cs">
+      <DependentUpon>Recruitment-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Management\ShowList-Management.aspx.cs">
+      <DependentUpon>ShowList-Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Management\ShowList-Management.aspx.designer.cs">
+      <DependentUpon>ShowList-Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\StartPage.aspx.cs">
+      <DependentUpon>StartPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\StartPage.aspx.designer.cs">
+      <DependentUpon>StartPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ChangePasseord-Supervisors.aspx.cs">
+      <DependentUpon>ChangePasseord-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ChangePasseord-Supervisors.aspx.designer.cs">
+      <DependentUpon>ChangePasseord-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\Home-Supervisors.aspx.cs">
+      <DependentUpon>Home-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\Home-Supervisors.aspx.designer.cs">
+      <DependentUpon>Home-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\Login-Supervisors.aspx.cs">
+      <DependentUpon>Login-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\Login-Supervisors.aspx.designer.cs">
+      <DependentUpon>Login-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\MasterPage-Supervisors.Master.cs">
+      <DependentUpon>MasterPage-Supervisors.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\MasterPage-Supervisors.Master.designer.cs">
+      <DependentUpon>MasterPage-Supervisors.Master</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedMissionDetails-Supervisors.aspx.cs">
+      <DependentUpon>ReceivedMissionDetails-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedMissionDetails-Supervisors.aspx.designer.cs">
+      <DependentUpon>ReceivedMissionDetails-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedReportDetails-Supervisors.aspx.cs">
+      <DependentUpon>ReceivedReportDetails-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedReportDetails-Supervisors.aspx.designer.cs">
+      <DependentUpon>ReceivedReportDetails-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedRequestDetails-Supervisors.aspx.cs">
+      <DependentUpon>ReceivedRequestDetails-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedRequestDetails-Supervisors.aspx.designer.cs">
+      <DependentUpon>ReceivedRequestDetails-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedRequestReplay-Supervisors.aspx.cs">
+      <DependentUpon>ReceivedRequestReplay-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedRequestReplay-Supervisors.aspx.designer.cs">
+      <DependentUpon>ReceivedRequestReplay-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendMission-Supervisors.aspx.cs">
+      <DependentUpon>SendMission-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendMission-Supervisors.aspx.designer.cs">
+      <DependentUpon>SendMission-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedMission-Supervisors.aspx.cs">
+      <DependentUpon>ReceivedMission-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedMission-Supervisors.aspx.designer.cs">
+      <DependentUpon>ReceivedMission-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedReport-Supervisors.aspx.cs">
+      <DependentUpon>ReceivedReport-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedReport-Supervisors.aspx.designer.cs">
+      <DependentUpon>ReceivedReport-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedRequest-Supervisors.aspx.cs">
+      <DependentUpon>ReceivedRequest-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ReceivedRequest-Supervisors.aspx.designer.cs">
+      <DependentUpon>ReceivedRequest-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendMissionDetails-Supervisors.aspx.cs">
+      <DependentUpon>SendMissionDetails-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendMissionDetails-Supervisors.aspx.designer.cs">
+      <DependentUpon>SendMissionDetails-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendMissionList-Supervisors.aspx.cs">
+      <DependentUpon>SendMissionList-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendMissionList-Supervisors.aspx.designer.cs">
+      <DependentUpon>SendMissionList-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendRequest-Supervisors.aspx.cs">
+      <DependentUpon>SendRequest-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendRequest-Supervisors.aspx.designer.cs">
+      <DependentUpon>SendRequest-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendReport-Supervisors.aspx.cs">
+      <DependentUpon>SendReport-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendReport-Supervisors.aspx.designer.cs">
+      <DependentUpon>SendReport-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendRequestResult-Supervisors.aspx.cs">
+      <DependentUpon>SendRequestResult-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendRequestResult-Supervisors.aspx.designer.cs">
+      <DependentUpon>SendRequestResult-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendRequestResultDetails-Supervisors.aspx.cs">
+      <DependentUpon>SendRequestResultDetails-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\SendRequestResultDetails-Supervisors.aspx.designer.cs">
+      <DependentUpon>SendRequestResultDetails-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ShowList-Supervisors.aspx.cs">
+      <DependentUpon>ShowList-Supervisors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\Supervisors\ShowList-Supervisors.aspx.designer.cs">
+      <DependentUpon>ShowList-Supervisors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HTML\Management\MasterPage-Management.Master" />
+    <Content Include="Fonts\B Titr Bold_0.eot" />
+    <Content Include="Fonts\B Titr Bold_0.otf" />
+    <Content Include="Fonts\B Titr Bold_0.ttf" />
+    <Content Include="Fonts\B Titr Bold_0.woff" />
+    <Content Include="HTML\Employees\MasterPage-Emoloyees.Master" />
+    <Content Include="HTML\Supervisors\MasterPage-Supervisors.Master" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51236</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44312/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

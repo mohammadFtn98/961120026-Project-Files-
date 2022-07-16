@@ -1,0 +1,177 @@
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\961120026.dll.config
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\961120026.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\961120026.pdb
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\csc.exe
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\csc.exe.config
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\csc.rsp
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\csi.exe
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\csi.exe.config
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\csi.rsp
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.AppContext.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Console.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.IO.Compression.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Net.Http.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.ValueTuple.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\vbc.exe
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\vbc.exe.config
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\vbc.rsp
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\obj\Debug\961120026.csproj.AssemblyReference.cache
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\obj\Debug\961120026.csproj.CoreCompileInputs.cache
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\obj\Debug\961120026.csproj.CopyComplete
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\obj\Debug\961120026.dll
+C:\Users\ASUS N580VD\Desktop\9611200226\961120026\961120026\obj\Debug\961120026.pdb
+D:\Project\Full\9611200226\961120026\961120026\bin\961120026.dll.config
+D:\Project\Full\9611200226\961120026\961120026\bin\961120026.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\961120026.pdb
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\csc.exe
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\csc.exe.config
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\csc.rsp
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\csi.exe
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\csi.exe.config
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\csi.rsp
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.AppContext.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Collections.Immutable.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Console.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Globalization.Calendars.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.IO.Compression.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.IO.FileSystem.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Net.Http.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Net.Sockets.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.ValueTuple.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Xml.XPath.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\vbc.exe
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\vbc.exe.config
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\vbc.rsp
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\VBCSCompiler.exe
+D:\Project\Full\9611200226\961120026\961120026\bin\roslyn\VBCSCompiler.exe.config
+D:\Project\Full\9611200226\961120026\961120026\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\Full\9611200226\961120026\961120026\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\Full\9611200226\961120026\961120026\obj\Debug\961120026.csproj.AssemblyReference.cache
+D:\Project\Full\9611200226\961120026\961120026\obj\Debug\961120026.csproj.CoreCompileInputs.cache
+D:\Project\Full\9611200226\961120026\961120026\obj\Debug\961120026.csproj.CopyComplete
+D:\Project\Full\9611200226\961120026\961120026\obj\Debug\961120026.dll
+D:\Project\Full\9611200226\961120026\961120026\obj\Debug\961120026.pdb
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\961120026.dll.config
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\961120026.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\961120026.pdb
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\csc.exe
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\csc.exe.config
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\csc.rsp
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\csi.exe
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\csi.exe.config
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\csi.rsp
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.AppContext.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Collections.Immutable.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Console.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Globalization.Calendars.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.IO.Compression.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.IO.FileSystem.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Net.Http.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Net.Sockets.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.ValueTuple.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Xml.XPath.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\vbc.exe
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\vbc.exe.config
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\vbc.rsp
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\VBCSCompiler.exe
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\roslyn\VBCSCompiler.exe.config
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\Project Files\Full\961120026\961120026\961120026\obj\Debug\961120026.csproj.AssemblyReference.cache
+D:\Project\Project Files\Full\961120026\961120026\961120026\obj\Debug\961120026.csproj.CoreCompileInputs.cache
+D:\Project\Project Files\Full\961120026\961120026\961120026\obj\Debug\961120026.csproj.CopyComplete
+D:\Project\Project Files\Full\961120026\961120026\961120026\obj\Debug\961120026.dll
+D:\Project\Project Files\Full\961120026\961120026\961120026\obj\Debug\961120026.pdb

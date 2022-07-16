@@ -1,0 +1,56 @@
+﻿.container .rcontant .ccontant .ReceivedReportManagement {
+    outline: 5px double gold;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+    /*---Header---*/
+
+    .container .rcontant .ccontant .ReceivedReportManagement .ReceivedReportManagementHeader {
+        height: 100px;
+    }
+
+        .container .rcontant .ccontant .ReceivedReportManagement .ReceivedReportManagementHeader a h2 {
+            color: gold;
+            text-align: center;
+            line-height: 100px;
+        }
+
+    /*---Contant---*/
+
+    .container .rcontant .ccontant .ReceivedReportManagement .ReceivedReportManagementContant {
+        min-height: 500px;
+        background-color: gold;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /*---Footer---*/
+
+    .container .rcontant .ccontant .ReceivedReportManagement .ReceivedReportManagementFooter {
+        min-height: 100px;
+    }
+
+        .container .rcontant .ccontant .ReceivedReportManagement .ReceivedReportManagementFooter .row .col-sm-6 {
+            min-height: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            color: gold;
+        }
+
+            .container .rcontant .ccontant .ReceivedReportManagement .ReceivedReportManagementFooter .row .col-sm-6 .ReceivedReportManagementFooterBTN {
+                height: 40px;
+                width: 115px;
+                margin: 5px;
+                background-color: gold;
+                color: black;
+                border-radius: 15px;
+                border-color: gold;
+            }
+
+                .container .rcontant .ccontant .ReceivedReportManagement .ReceivedReportManagementFooter .row .col-sm-6 .ReceivedReportManagementFooterBTN:hover {
+                    height: 42px;
+                    width: 117px;
+                    box-shadow: 0px 0px 10px 2px gold;
+                }

@@ -1,0 +1,99 @@
+﻿.container .rcontant .ccontant .SendReportSupervisors {
+    outline: 5px double gold;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+    /*---Header---*/
+
+    .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsHeader {
+        height: 100px;
+    }
+
+        .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsHeader a h2 {
+            color: gold;
+            text-align: center;
+            line-height: 100px;
+        }
+
+    /*---Contant---*/
+
+    .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsContant {
+        min-height: 500px;
+        background-color: gold;
+    }
+
+        .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsContant .row .cl {
+            min-height: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+            .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsContant .row .cl h4 {
+                text-align: right;
+            }
+
+            .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsContant .row .cl .SendReportSupervisorsContantInput {
+                width: 200px;
+                height: 35px;
+                outline: 2px double black;
+                border-radius: 15px;
+                text-align: center;
+                border: 0px;
+                background-color: black;
+                color: gold;
+                margin: auto;
+            }
+
+                .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsContant .row .cl .SendReportSupervisorsContantInput:hover {
+                    width: 201px;
+                    height: 36px;
+                    box-shadow: 0px 0px 10px 2px black;
+                }
+
+            .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsContant .row .cl .SendReportSupervisorsContantBigInput {
+                width: 100%;
+                min-height: 200px;
+                outline: 2px double black;
+                border-radius: 15px;
+                text-align: right;
+                direction: rtl;
+                padding: 10px 5px;
+                border: 0px;
+                background-color: black;
+                color: gold;
+            }
+
+                .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsContant .row .cl .SendReportSupervisorsContantBigInput:hover {
+                    box-shadow: 0px 0px 10px 2px black;
+                }
+
+    /*---Footer---*/
+
+    .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsFooter {
+        min-height: 100px;
+    }
+
+        .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsFooter .row .col-sm-6 {
+            min-height: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            color: gold;
+        }
+
+            .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsFooter .row .col-sm-6 .SendReportSupervisorsFooterBTN {
+                height: 40px;
+                width: 115px;
+                margin: 5px;
+                background-color: gold;
+                color: black;
+                border-radius: 15px;
+                border-color: gold;
+            }
+
+                .container .rcontant .ccontant .SendReportSupervisors .SendReportSupervisorsFooter .row .col-sm-6 .SendReportSupervisorsFooterBTN:hover {
+                    height: 42px;
+                    width: 117px;
+                    box-shadow: 0px 0px 10px 2px gold;
+                }

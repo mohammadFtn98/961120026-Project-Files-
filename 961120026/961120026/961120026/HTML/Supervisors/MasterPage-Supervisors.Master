@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage-Supervisors.master.cs" Inherits="_961120026.HTML.Supervisors.MasterPage_Supervisors" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="../../Style/bootstrap.css" rel="stylesheet" />
+    <link href="../../Style/Supervisors/MasterPage-Supervisors.css" rel="stylesheet" />
+    <script src="../../Java%20Script/bootstrap.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="header-name"><a href="#">سامانه مدیریت کارمندان</a></div>
+            <div class="header-logo">
+                <a href="#">
+                    <img alt="logo" id="img-logo" src="../../Pictures/logo.png" />
+                </a>
+            </div>
+        </div>
+        <nav class="navbar sticky-top navbar-expand-xl navbar-light bg-light menu">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Home-Supervisors.aspx">خانه</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="ReceivedRequest-Supervisors.aspx">درخواست های‌ دریافتی</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="SendRequestResult-Supervisors.aspx">‌درخواست های ارسالی</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="ReceivedMission-Supervisors.aspx">ماموریت های دریافتی</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="SendMissionList-Supervisors.aspx">ماموریت های ارسالی</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="ShowList-Supervisors.aspx">لیست‌ کارمندان</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="ChangePasseord-Supervisors.aspx">تغییر رمز عبور</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">
+                                <asp:Button Text="خروج" runat="server" ID="EXTSupervisors" OnClick="EXTSupervisors_Click" /></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row rslider">
+                <div class="col cslider ">
+                    <div class="slider-num">
+                        <asp:Button Text="" ID="picnum1" CssClass="picnumber" runat="server" OnClick="picnum1_Click" />
+                        <asp:Button Text="" ID="picnum2" CssClass="picnumber" runat="server" OnClick="picnum2_Click" />
+                    </div>
+                    <asp:Label ID="slide1" runat="server">
+                        <img src="../../Pictures/Slider/1.jpg" alt="slider" id="slider1" height="100%" width="100%" />
+                    </asp:Label>
+                    <asp:Label ID="slide2" runat="server">    
+                        <img src="../../Pictures/Slider/2.jpg" alt="slider" id="slider2" height="100%" width="100%" />
+                    </asp:Label>
+                </div>
+            </div>
+
+            <div class="row rcontant">
+                <div class="col ccontant">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="https://instagram.com/int.kut?utm_medium=copy_link" target="_blank">
+                            <img src="../../Pictures/instagram.png" alt="Instagram" width="40px" height="40px" /></a></li>
+                        <li><a href="mailto:mohammadforoutan98@gmail.com" target="_blank">
+                            <img src="../../Pictures/mail.png" alt="Mail" width="40px" height="40px" /></a></li>
+                        <li><a href="https://t.me/kut_news" target="_blank">
+                            <img src="../../Pictures/telegram.png" alt="Telegram" width="40px" height="40px" /></a></li>
+                        <li><a href="https://goo.gl/maps/RSrqXaswFQRDMQrq8" target="_blank">
+                            <img src="../../Pictures/Map.png" alt="Address" width="40px" height="40px" /></a></li>
+                    </ul>
+                </div>
+                <div class="footer-top-left">
+                    <asp:Label Text="text" runat="server" ID="UserSupervisors" />
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© کلیه حقوق مادی و معنوی این سامانه برای دانشگاه صنعتی کرمانشاه محفوظ است .</p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

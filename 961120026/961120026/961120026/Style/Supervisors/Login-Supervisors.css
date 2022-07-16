@@ -1,0 +1,257 @@
+﻿@font-face {
+    font-family: 'B Titr';
+    src: url('../../Fonts/B Titr Bold_0.eot');
+    src: url('../../Fonts/B Titr Bold_0.otf');
+    src: url('../../Fonts/B Titr Bold_0.svg');
+    src: url('../../Fonts/B Titr Bold_0.ttf');
+    src: url('../../Fonts/B Titr Bold_0.woff');
+}
+
+@-webkit-keyframes a2 {
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(180deg);
+    }
+}
+
+@-webkit-keyframes a1 {
+    50% {
+        -webkit-transform: scale(1.1,1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1,1);
+    }
+}
+
+@-moz-keyframes a1 {
+    50% {
+        -moz-transform: scale(1.1,1.1);
+    }
+
+    100% {
+        -moz-transform: scale(1,1);
+    }
+}
+
+@-o-keyframes a1 {
+    50% {
+        -o-transform: scale(1.1,1.1);
+    }
+
+    100% {
+        -o-transform: scale(1,1);
+    }
+}
+
+@-ms-keyframes a1 {
+    50% {
+        -ms-transform: scale(1.1,1.1);
+    }
+
+    100% {
+        -ms-transform: scale(1,1);
+    }
+}
+
+/*---all---*/
+
+body {
+    direction: rtl;
+    font-family: 'B Titr';
+    font-size: 17px;
+    background-image: url(../../Pictures/background.png);
+    background-size: 300px;
+    background-repeat: repeat;
+    overflow-x: hidden;
+}
+
+div, p {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+a, a:hover {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+/*---header---*/
+
+.header {
+    height: 100px;
+    width: 100vw;
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.header-name {
+    height: 100px;
+    width: 300px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 200%;
+    overflow: hidden;
+}
+
+.header-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.header .header-logo a #img-logo {
+    height: 100px;
+    width: 100px;
+}
+
+/*---container---*/
+
+.container {
+    background-image: url(../Picture/background.png);
+    background-size: 300px;
+    background-repeat: repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .container .circle {
+        background-color: black;
+        color: gold;
+        height: 500px;
+        width: 500px;
+        box-sizing: border-box;
+        border: 7px double gold;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .container .circle .contant {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+            .container .circle .contant .row {
+                justify-content: center;
+                margin-right: 0px;
+                margin-left: 0px;
+            }
+
+        .container .circle .row .user-pass {
+            height: 80px;
+            text-align: center;
+            margin: auto 0px;
+            line-height: 80px;
+        }
+
+            .container .circle .row .user-pass .UserPassTxtbox {
+                height: 35px;
+                text-align: center;
+                border: 2px double gold;
+                border-radius: 20px;
+                background-color: #1e272e;
+                color: gold;
+            }
+
+#loginSupervisorsBTN {
+    height: 40px;
+    width: 80px;
+    line-height: normal;
+    border-radius: 15px;
+    background-color: #1e272e;
+    border: 2px double gold;
+    color: gold;
+}
+
+#loginSupervisorsBTN:hover {
+    -webkit-animation: a1 3s;
+    -moz-animation: a1 3s;
+    -o-animation: a1 3s;
+    -ms-animation: a1 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+}
+
+#BCKLoginSupervisors {
+    height: 40px;
+    width: 80px;
+    line-height: normal;
+    border-radius: 15px;
+    background-color: #1e272e;
+    border: 2px double gold;
+    color: gold;
+}
+
+    #BCKLoginSupervisors:hover {
+        -webkit-animation: a1 3s;
+        -moz-animation: a1 3s;
+        -o-animation: a1 3s;
+        -ms-animation: a1 3s;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+        -o-animation-iteration-count: infinite;
+        -ms-animation-iteration-count: infinite;
+    }
+
+/*---footer---*/
+
+.footer {
+    height: 100px;
+    width: 100vw;
+    background-color: aqua;
+}
+
+    .footer .footer-top {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        background-color: gold;
+        box-sizing: border-box;
+    }
+
+        .footer .footer-top ul {
+            padding: 0px;
+            margin: 0px;
+            margin-right: 20px;
+        }
+
+            .footer .footer-top ul li {
+                list-style: none;
+                display: inline-block;
+            }
+
+                .footer .footer-top ul li:hover {
+                    -webkit-animation: a1 2S;
+                    -moz-animation: a1 2S;
+                    -o-animation: a1 2S;
+                    -ms-animation: a1 2s;
+                    -webkit-animation-iteration-count: infinite;
+                    -moz-animation-iteration-count: infinite;
+                    -o-animation-iteration-count: infinite;
+                    -ms-animation-iteration-count: infinite;
+                }
+
+    .footer .footer-bottom {
+        height: 30px;
+        width: 100%;
+        background-color: black;
+        color: gold;
+        text-align: center;
+    }

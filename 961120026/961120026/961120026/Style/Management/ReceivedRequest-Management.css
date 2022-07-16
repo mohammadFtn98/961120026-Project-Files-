@@ -1,0 +1,56 @@
+﻿.container .rcontant .ccontant .ReceivedRequestManagement {
+    outline: 5px double gold;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+    /*---Header---*/
+
+    .container .rcontant .ccontant .ReceivedRequestManagement .ReceivedRequestManagementHeader {
+        height: 100px;
+    }
+
+        .container .rcontant .ccontant .ReceivedRequestManagement .ReceivedRequestManagementHeader a h2 {
+            color: gold;
+            text-align: center;
+            line-height: 100px;
+        }
+
+    /*---Contant---*/
+
+    .container .rcontant .ccontant .ReceivedRequestManagement .ReceivedRequestManagementContant {
+        min-height: 500px;
+        background-color: gold;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /*---Footer---*/
+
+    .container .rcontant .ccontant .ReceivedRequestManagement .ReceivedRequestManagementFooter {
+        min-height: 100px;
+    }
+
+        .container .rcontant .ccontant .ReceivedRequestManagement .ReceivedRequestManagementFooter .row .col-sm-6 {
+            min-height: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            color: gold;
+        }
+
+            .container .rcontant .ccontant .ReceivedRequestManagement .ReceivedRequestManagementFooter .row .col-sm-6 .ReceivedRequestManagementFooterBTN {
+                height: 40px;
+                width: 115px;
+                margin: 5px;
+                background-color: gold;
+                color: black;
+                border-radius: 15px;
+                border-color: gold;
+            }
+
+                .container .rcontant .ccontant .ReceivedRequestManagement .ReceivedRequestManagementFooter .row .col-sm-6 .ReceivedRequestManagementFooterBTN:hover {
+                    height: 42px;
+                    width: 117px;
+                    box-shadow: 0px 0px 10px 2px gold;
+                }
